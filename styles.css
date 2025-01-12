@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: url('https://patch.com/img/cdn20/users/24713174/20211208/105834/drywall-finishing-martinez-california___08105832239.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.7em;
+    color: #ddd;
+}
+
+header .cta a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+/* Navigation Styling */
+nav {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about, .services, .portfolio, .testimonials {
+    margin-bottom: 50px;
+}
+
+/* Services Section */
+.service-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service {
+    flex: 1 1 calc(33% - 20px);
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfolio Section */
+.portfolio img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
